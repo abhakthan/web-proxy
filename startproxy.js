@@ -10,10 +10,12 @@ gulp.task('default', function() {
   proxyOptions.route = '/core';
 
   browserSync({
+    ui: false,
+    files: [ './src/**/*.*' ],
     open: true,
     port: 3000,
     server: {
-      baseDir: ".",
+      baseDir: "./src/",
       middleware: [proxy(proxyOptions)]
     }
   });
