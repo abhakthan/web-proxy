@@ -1,0 +1,26 @@
+{
+  "name": "web-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/gulp/bin/gulp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhakthan/web-proxy.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "url": "^0.11.0",
+    "proxy-middleware": "^0.15.0",
+    "browser-sync": "^2.13.0"
+  },
+  "author": "Ajay Bhakthan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhakthan/web-proxy/issues"
+  },
+  "homepage": "https://github.com/abhakthan/web-proxy#readme"
+}
